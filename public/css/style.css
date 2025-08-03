@@ -1,0 +1,283 @@
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+/* Glass Effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+/* 3D Card Hover Effect */
+.card-3d {
+  transition: all 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  will-change: transform;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-3d:hover {
+  transform: rotateY(5deg) scale(1.03);
+  box-shadow: 0 15px 30px rgba(255, 0, 0, 0.3);
+}
+
+/* 3D Button */
+.donate-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.donate-btn:hover {
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+}
+/* 3D Card Hover Effect */
+.card-3d {
+  transition: all 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  will-change: transform;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-3d:hover {
+  transform: rotateY(4deg) scale(1.02);
+  box-shadow: 0 15px 30px rgba(255, 0, 0, 0.3);
+}
+
+/* Glass Effect (if needed on background) */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 3D Button Hover Effect */
+.donate-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.donate-btn:hover {
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+}
+/* 3D Card Hover Effect */
+.card-3d {
+  transition: all 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  will-change: transform;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card-3d:hover {
+  transform: rotateY(3deg) scale(1.02);
+  box-shadow: 0 15px 30px rgba(255, 0, 0, 0.3);
+}
+
+/* Glass Effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 3D Button */
+.donate-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.donate-btn:hover {
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+}
+.card-3d {
+  transition: all 0.3s ease-in-out;
+  transform-style: preserve-3d;
+  will-change: transform;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.card-3d:hover {
+  transform: rotateY(3deg) scale(1.02);
+  box-shadow: 0 15px 30px rgba(255, 0, 0, 0.3);
+}
+.glass-effect {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.donate-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  font-weight: bold;
+}
+.donate-btn:hover {
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.4);
+}
+.profile-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  border-radius: 20px;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(255, 0, 0, 0.25);
+}
+/* Frosted Glass Effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 1rem;
+}
+
+/* 3D Card Hover */
+.card:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Frosted Glass Header */
+.glass-header {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1050;
+}
+
+/* Nav hover 3D effect */
+.nav-link {
+  transition: all 0.2s ease-in-out;
+}
+.nav-link:hover {
+  transform: translateY(-2px);
+  color: #dc3545 !important;
+}
+.image-box {
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid #dc3545; /* Bootstrap danger color */
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+.card-3d {
+  border-radius: 1rem;
+  background: #fff;
+  transition: transform 0.4s ease;
+}
+.card-3d:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+ body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Hero section */
+    .hero-section {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #bg-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .glass-effect {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+    }
+
+    .card-3d {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-3d:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .donate-btn:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+    
+
+ 
